@@ -1,0 +1,44 @@
+.list-group-item.active {
+    background-color: #E63946;
+    color: white;
+    border-color: #E63946;
+  }
+  .container{
+    text-align: center;
+  }
+  
+  .list-group-item.active p {
+    margin: 0;
+    color: #ffffff;
+  }
+  .main-area{
+    margin-top: 40px;
+    padding-top: 30px;
+  }
+  .extra-bold {
+    font-weight: 800;
+}
+
+.list-group{
+    justify-content: space-evenly;
+    gap:20px;
+padding-top: 30px;
+padding-bottom: 0px;
+}
+  .list-group-item {
+    cursor: pointer;
+  
+  }
+  
+  .list-group-item h5 {
+    margin: 0;
+    font-size: 1.25rem;
+  }
+  
+  .list-group-item p {
+    margin: 0;
+    color: #6c757d;
+  }
+  .description{
+    color: rgb(255, 255, 255);
+  }

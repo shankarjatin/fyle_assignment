@@ -1,0 +1,90 @@
+.intro-section {
+    padding: 40px;
+    overflow-x: hidden;
+}
+
+p {
+    color: #000000;
+    font-weight: 400;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding-right: 20px;
+    text-align: left;
+}
+
+.award-winning {
+    color: #E63946;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.description {
+    color: #000000;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-button {
+    background-color: #E63946;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    align-self: start;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-title {
+    font-weight: bold;
+}
+
+.contact-submit-button {
+    background-color: #E63946;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.contact-submit-button i {
+    margin-left: 10px;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+.form-check-label {
+    color: #000000;
+}

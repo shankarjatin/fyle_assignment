@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Iframes</title>
+    <style>
+        iframe {
+            width: 100%;
+            border: none; /* Remove border */
+        }
+    </style>
+</head>
+<body>
+    <iframe src="./introduction/introduction.html" id="iframe1" onload="resizeIframe(this)"></iframe>
+    <iframe src="page2.html" id="iframe2" onload="resizeIframe(this)"></iframe>
+    <iframe src="page3.html" id="iframe3" onload="resizeIframe(this)"></iframe>
+
+    <script>
+        function resizeIframe(iframe) {
+            iframe.style.height = iframe.contentWindow.document.documentElement.scrollHeight + 'px';
+        }
+
+        window.addEventListener('message', function (event) {
+            if (event.data.type === 'resize') {
+                const iframe = document.getElementById(event.data.id);
+                iframe.style.height = event.data.height + 'px';
+            }
+        }, false);
+    </script>
+</body>
+</html>

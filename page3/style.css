@@ -1,0 +1,27 @@
+/* style.css */
+
+.icon-container {
+    font-size: 2rem;
+    color: #000000; /* Change to the desired color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 80px;
+    border: 2px solid #000000; /* Border color */
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+  
+  h5 {
+    font-weight: bold;
+  }
+  
+  .extra-bold {
+    font-weight: 800;
+  }
+  
+  p {
+    color: #6c757d; /* Bootstrap's secondary text color */
+  }
+  

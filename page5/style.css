@@ -1,0 +1,41 @@
+/* style.css */
+
+.row {
+    padding-top: 40px;
+  }
+  
+  .card {
+    border: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .card-title {
+    font-size: 2rem;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #6c757d;
+  }
+  
+  .extra-bold {
+    font-weight: 800;
+  }
+  
+  .hover-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .hover-card:hover .card-title {
+    color: #dc3545;
+  }
+  
+  .hover-card:hover .card-text {
+    color: #000;
+  }
+  
+  .text-danger {
+    color: #dc3545 !important;
+  }
+  

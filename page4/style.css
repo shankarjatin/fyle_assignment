@@ -8,6 +8,7 @@
   }
   
   .list-group-item.active p {
+    padding-top: 20px;
     margin: 0;
     color: #ffffff;
   }
@@ -21,12 +22,15 @@
 
 .list-group{
     justify-content: space-evenly;
-    gap:20px;
-padding-top: 30px;
+    gap:60px;
+padding-top: 40px;
 padding-bottom: 0px;
 }
   .list-group-item {
     cursor: pointer;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
   
   }
   
@@ -36,6 +40,7 @@ padding-bottom: 0px;
   }
   
   .list-group-item p {
+    padding-top: 20px;
     margin: 0;
     color: #6c757d;
   }

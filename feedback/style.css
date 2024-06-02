@@ -1,0 +1,67 @@
+/* style.css */
+
+.container {
+    margin-top: 20px;
+  }
+  
+  .extra-bold {
+    font-weight: 800;
+  }
+  
+  .feedback {
+    font-size: 1.2rem;
+    color: #6c757d;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feedback .quote {
+    font-style: italic;
+    padding-right: 140px;
+    position: relative;
+    padding-left: 140px;
+  }
+  
+  .feedback .quote i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 2rem;
+    color: #dc3545;
+  }
+  
+  .feedback .author {
+    padding-left: 0%;
+    font-size: small;
+    margin-top: 20px;
+    color: #4a4848;
+  }
+  
+  .feedback .author .author-name {
+    color: #dc3545;
+    font-weight: bold;
+  }
+  
+  .text-danger {
+    color: #dc3545 !important;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .author {
+    padding-left: 0%;
+    margin-left: 0px;
+  }
+  

@@ -1,0 +1,16 @@
+/* style.css */
+
+.footer-section {
+    background-color: #E63946; /* Adjust color as needed */
+    padding: 20px 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  .footer-logo {
+    width: 120px; /* Fixed width */
+    height: 60px; /* Fixed height */
+    object-fit: contain; /* Ensure the image fits within the dimensions */
+    margin: 10px 20px; /* Add margin for spacing */
+  }
+  
